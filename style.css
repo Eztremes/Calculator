@@ -1,0 +1,74 @@
+body{
+  background-image: url(https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130555.jpg&fm=jpg);
+}
+.container {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+
+button {
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+button.ac {
+  background-color: #f44336;
+  color: #fff;
+  width: 200px;
+}
+
+button.delete {
+  background-color: #f9a825;
+  width: 200px;
+
+}
+
+button.sign {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button.equal {
+  background-color: #2196f3;
+  color: #fff;
+  
+}
+
+/* Arrange buttons in a grid */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-row button {
+  flex-grow: 1;
+  margin: 5px;
+  width: 200px;
+}
+
+/* Adjust width for the sign buttons */
+.button-row .sign {
+  width: 100%;
+}
+
